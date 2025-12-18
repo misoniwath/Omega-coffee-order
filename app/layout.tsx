@@ -1,11 +1,8 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Geist, Geist_Mono, Noto_Sans_Khmer, Noto_Sans_SC } from "next/font/google"
+import { Noto_Sans_Khmer, Noto_Sans_SC } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
-
-const _geist = Geist({ subsets: ["latin"] })
-const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 const notoSansKhmer = Noto_Sans_Khmer({
   subsets: ["khmer", "latin"],
