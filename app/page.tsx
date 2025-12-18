@@ -791,7 +791,7 @@ export default function CoffeeMenu() {
                       <p className="text-sm font-bold text-gray-700 mb-3">{t.scanToPay}</p>
                       <div className="bg-white p-4 rounded-lg inline-block border-2 border-gray-200">
                         <Image
-                          src="/cafe-qr.jpg"
+                          src="/cafe-qr-2.jpg"
                           alt="Shop Payment QR"
                           width={200}
                           height={200}
